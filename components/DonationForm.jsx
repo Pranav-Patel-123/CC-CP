@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { ethers } from "ethers"
 // Ensure the ABI file is correctly referenced or imported as needed.
-import CampaignABI from "../abi/Campaign.json"
+import CampaignABI from "../abi.json"
 
 const DonationForm = ({ campaignAddress, signer }) => {
   const [donationAmount, setDonationAmount] = useState("")
